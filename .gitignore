@@ -7,6 +7,12 @@
 *.obj
 *.elf
 
+# Ceedling
+build/test/
+build/logs/
+build/temp/
+build/artifacts
+
 # Linker output
 *.ilk
 *.map
