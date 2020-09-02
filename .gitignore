@@ -8,10 +8,12 @@
 *.elf
 
 # Ceedling
-build/test/
-build/logs/
-build/temp/
-build/artifacts
+*/build/test/
+*/build/logs/
+*/build/temp/
+*/build/artifacts
+*.pass
+*.fail
 
 # Linker output
 *.ilk
@@ -56,3 +58,4 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
